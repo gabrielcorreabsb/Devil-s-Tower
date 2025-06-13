@@ -1,20 +1,20 @@
-// /classes/QuizManager.js ou /QuizManager.js
+// Easter Egg ativado ao interagir com o objeto do fantasma no Map2.
 
 const questions = [
     {
-        question: 'Qual motor de jogo (engine) estamos usando neste projeto?',
-        answers: ['Unity', 'Godot', 'Phaser', 'Unreal'],
-        correctAnswer: 'Phaser'
+        question: 'Qual o video-game mais vendido de todos os tempos?',
+        answers: ['Nintendo Switch', 'Playstation 2', 'Playstation 4', 'Xbox 360'],
+        correctAnswer: 'Playstation 2'
     },
     {
-        question: 'O que a sigla "HUD" significa em jogos?',
-        answers: ['Hyper-Under-Display', 'Heads-Up Display', 'Hit-Unit-Damage', 'Heavy-User-Data'],
-        correctAnswer: 'Heads-Up Display'
+        question: 'Qual foi o game do ano em 2018?',
+        answers: ['God of War', 'Celeste', 'Red Dead Redemption 2', 'Marvels Spider-Man'],
+        correctAnswer: 'God of War'
     },
     {
-        question: 'Qual o nome do popular editor de mapas 2D que usamos?',
-        answers: ['Map-Maker', 'Tile-Setter', 'World-Builder', 'Tiled'],
-        correctAnswer: 'Tiled'
+        question: 'Qual foi o jogo mais vendido de todos os tempos?',
+        answers: ['Grand Theft Auto V', 'GTA: San Andreas', 'Minecraft', 'Skyrim'],
+        correctAnswer: 'Minecraft'
     }
 ];
 

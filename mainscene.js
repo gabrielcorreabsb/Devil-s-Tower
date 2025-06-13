@@ -1,7 +1,7 @@
 import Player from './classes/player.js';
 import QuizManager from './QuizManager.js';
 
-export default class MainScene extends Phaser.Scene {
+export default class MainScene extends Phaser.Scene { // código feito pelo Samuel e corrigido/alterado e incluído pelo Gabriel
   constructor() {
     super('MainScene');
     this.playerLife = 100;
@@ -70,7 +70,7 @@ export default class MainScene extends Phaser.Scene {
 
     console.log(`Criando nível ${this.currentLevel}`);
 
-    if (this.currentLevel === 1) {
+    if (this.currentLevel === 1) { //Controla a parte 1 (Entrada)
       map = this.make.tilemap({ key: 'mapa_fase1' });
       const tilesetEntrada = map.addTilesetImage('entrada_castelo', 'tiles_fase1');
       const tilesetPorta = map.addTilesetImage('saida', 'porta_saida_tiles');
@@ -82,7 +82,7 @@ export default class MainScene extends Phaser.Scene {
       groundLayer.setCollisionByExclusion([-1]);
       this.physics.add.collider(this.player, groundLayer);
 
-    } else if (this.currentLevel === 2) {
+    } else if (this.currentLevel === 2) { //Controla a parte 2 (Biblioteca)
       map = this.make.tilemap({ key: 'mapa_fase2' });
       const tilesetFundo = map.addTilesetImage('fase2_fundo', 'fase2_fundo_tiles');
       const tilesetItens = map.addTilesetImage('fase2_ground', 'fase2_itens_tiles');
@@ -106,7 +106,7 @@ export default class MainScene extends Phaser.Scene {
         this.physics.add.overlap(this.player, quizTriggerGroup, this.triggerQuiz, null, this);
       }
 
-    } else if (this.currentLevel === 3) {
+    } else if (this.currentLevel === 3) { //Controla a parte 3 (Penúltimo Andar antes de chegar no andar do Diabo)
       map = this.make.tilemap({ key: 'mapa_fase3' });
       const tilesetFundo = map.addTilesetImage('fundo_fase3', 'fase3_fundo_tiles');
       const tilesetChao = map.addTilesetImage('chao', 'fase3_chao_tiles');
@@ -116,10 +116,10 @@ export default class MainScene extends Phaser.Scene {
       const groundLayer = map.createLayer('chao', [tilesetChao, tilesetPorta], 0, 0);
       map.createLayer('porta', tilesetPorta, 0, 0);
 
-      groundLayer.setCollisionByExclusion([2]);
+      groundLayer.setCollisionByExclusion([2]); // Já estava no código, porém ao deixar o valor negativo o char ficava desalinhado com o chão
       this.physics.add.collider(this.player, groundLayer);
 
-    } else if (this.currentLevel === 4) {
+    } else if (this.currentLevel === 4) { //Controla a parte 4 (Boss Fight ou era para ser)
       map = this.make.tilemap({ key: 'mapa_fase4_boss' });
       const tilesetBoss = map.addTilesetImage('chao_boss', 'fase3_fundo_tiles');
 
@@ -128,7 +128,7 @@ export default class MainScene extends Phaser.Scene {
         const groundLayer4 = map.createLayer('chao', tilesetBoss, 0, 0);
 
         if (groundLayer4) {
-          groundLayer4.setCollisionByExclusion([0]);
+          groundLayer4.setCollisionByExclusion([0]); // o mesmo da linha 119
           this.physics.add.collider(this.player, groundLayer4);
         }
       } else {
@@ -138,7 +138,7 @@ export default class MainScene extends Phaser.Scene {
       console.log("Bem-vindo à fase do chefe!");
     }
 
-    const exitLayer = map.getObjectLayer('saida');
+    const exitLayer = map.getObjectLayer('saida'); // Controla a porta que serve como condição para mudar de mapa
     if (exitLayer) {
       exitLayer.objects.forEach(exitObject => {
         let exitSprite = exitGroup.create(exitObject.x, exitObject.y, 'porta_saida_tiles')
@@ -173,7 +173,7 @@ export default class MainScene extends Phaser.Scene {
         { fontFamily: 'Pixel Emulator', fontSize: '22px', color: '#fff', align: 'center' }
     ).setOrigin(0.5).setVisible(false).setDepth(hudDepth);
 
-    // Exibir menu inicial apenas no primeiro carregamento
+    // Exibir menu inicial apenas no primeiro carregamento, até então não havia mudado a lógica e era carregado em todas as mudanças de mapa
     if (this.isFirstLoad) {
       this.hudBg = this.add.rectangle(512, 288, 1024, 576, 0x000000, 1).setDepth(20);
       this.logoImg = this.add.image(512, 250, 'devilsTower').setDisplaySize(220, 220).setDepth(hudDepth);
@@ -256,7 +256,7 @@ export default class MainScene extends Phaser.Scene {
     if (this.currentLevel > 4) {
       console.log('Fim de jogo!');
       this.currentLevel = 1;
-      this.isFirstLoad = true; // Resetar para mostrar o menu inicial no fim do jogo
+      this.isFirstLoad = true; // Resetar para mostrar o menu inicial no fim do jogo, era para funcionar porém não temos end game!
     }
 
     this.scene.restart({

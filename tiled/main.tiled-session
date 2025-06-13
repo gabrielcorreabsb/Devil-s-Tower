@@ -3,8 +3,9 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "main.json",
+    "activeFile": "map4_boss.json",
     "expandedProjectPaths": [
+        "assets",
         "."
     ],
     "fileStates": {
@@ -18,7 +19,7 @@
             "scaleInDock": 0.75
         },
         "assets/chao_1.tsj": {
-            "scaleInDock": 1,
+            "scaleInDock": 0.5,
             "scaleInEditor": 1
         },
         "assets/terrain.tsx": {
@@ -59,7 +60,7 @@
             "selectedLayer": 5,
             "viewCenter": {
                 "x": 543,
-                "y": 338
+                "y": 54
             }
         },
         "map2.json#fase2_fundo": {
@@ -79,7 +80,7 @@
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 43.939393939393995,
-                "y": 342.4242424242424
+                "y": -87.87878787878788
             }
         },
         "map3.json#chao": {
@@ -88,12 +89,15 @@
         "map3.json#fundo_fase3": {
             "scaleInDock": 0.33
         },
+        "map3.json#saida": {
+            "scaleInDock": 0.33
+        },
         "map4_boss.json": {
             "scale": 0.75,
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 509.99999999999994,
-                "y": 279.99999999999994
+                "y": 62.666666666666686
             }
         },
         "map4_boss.json#chao_boss": {
@@ -103,8 +107,8 @@
             "scale": 0.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 709.3333333333334,
-                "y": 73.33333333333326
+                "x": 509.99999999999994,
+                "y": -116
             }
         },
         "mapa.json#entrada_castelo": {
@@ -122,14 +126,22 @@
     "map.lastUsedFormat": "json",
     "map.width": 32,
     "openFiles": [
-        "main.json"
+        "mapa.json",
+        "map1.json",
+        "map3.json",
+        "assets/chao_1.tsj",
+        "map2.json",
+        "map4_boss.json"
     ],
     "project": "main.tiled-project",
     "recentFiles": [
-        "map2.json",
-        "assets/chao_1.tsj",
-        "assets/terrain.tsx",
         "mapa.json",
+        "map1.json",
+        "map3.json",
+        "assets/chao_1.tsj",
+        "map2.json",
+        "map4_boss.json",
+        "assets/terrain.tsx",
         "main.json"
     ],
     "tileset.embedInMap": true,

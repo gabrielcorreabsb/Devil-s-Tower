@@ -2,7 +2,7 @@ import MainScene from './mainscene.js';
 
 const config = {
   type: Phaser.AUTO,
-  width: 1024,
+  width: 1024, // resolução do jogo
   height: 576,
   backgroundColor: '#ffffff',
   physics: {

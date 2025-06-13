@@ -1,8 +1,13 @@
 # Devil's Tower
 
+<div align="center">
+
 ![Logo do Jogo Devil's Tower](https://github.com/gabrielcorreabsb/Devil-s-Tower/blob/main/img/devilsTower.png?raw=true)
 
 ###  Jogável no Navegador! [Jogue Agora!](https://gabrielcorrea.tech/projetos/game-projeto/)
+
+</div>
+
 ## Sobre o Projeto
 
 **Devil's Tower** é um protótipo de jogo de plataforma 2D com progressão de níveis, desenvolvido como um projeto acadêmico para a disciplina de Programação de Games. Inspirado em clássicos como *Castlevania*, o jogo apresenta um personagem com um sistema de combate em combo, movimentação fluida e múltiplos estágios, cada um com seus próprios desafios e design.

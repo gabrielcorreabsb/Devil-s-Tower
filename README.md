@@ -51,11 +51,11 @@ Para rodar este projeto, você precisará de um servidor local para servir os ar
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    git clone [https://github.com/gabrielcorreabsb/Devil-s-Towe](https://github.com/gabrielcorreabsb/Devil-s-Towe)
     ```
 2.  **Navegue até a pasta do projeto:**
     ```bash
-    cd seu-repositorio
+    cd o_nome_do_repositorio // pode ser devil-s-towe
     ```
 3.  **Inicie um servidor local:**
     * Se você usa o **Visual Studio Code**, instale a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) e clique em "Go Live" no canto inferior direito.

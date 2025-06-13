@@ -9,7 +9,6 @@ const config = {
     default: 'arcade',
     arcade: {
       gravity: { y: 1500 },
-      debug: false
     }
   },
   scene: [MainScene]

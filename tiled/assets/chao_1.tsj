@@ -1,0 +1,14 @@
+{ "columns":28,
+ "image":"ground_1.png",
+ "imageheight":570,
+ "imagewidth":915,
+ "margin":0,
+ "name":"chao_1",
+ "spacing":0,
+ "tilecount":476,
+ "tiledversion":"1.11.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.10"
+}

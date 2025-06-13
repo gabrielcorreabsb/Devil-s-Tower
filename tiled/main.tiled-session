@@ -1,0 +1,137 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "main.json",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 0.33
+        },
+        "#fase2_fundo": {
+            "scaleInDock": 0.33
+        },
+        "#fase2_ground": {
+            "scaleInDock": 0.75
+        },
+        "assets/chao_1.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/terrain.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "main.json": {
+            "scale": 0.48924999999999996,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1136.43331630046,
+                "y": 817.5779253960143
+            }
+        },
+        "main.json#terrain-32x32": {
+            "scaleInDock": 1
+        },
+        "map1.json": {
+            "scale": 0.75,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 680.6666666666666,
+                "y": 231.99999999999994
+            }
+        },
+        "map1.json#entrada_castelo": {
+            "scaleInDock": 1
+        },
+        "map1.json#saida": {
+            "scaleInDock": 1
+        },
+        "map2.json": {
+            "expandedObjectLayers": [
+                10,
+                8
+            ],
+            "scale": 0.5,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 543,
+                "y": 338
+            }
+        },
+        "map2.json#fase2_fundo": {
+            "scaleInDock": 1
+        },
+        "map2.json#fase2_ground": {
+            "scaleInDock": 1
+        },
+        "map2.json#saida": {
+            "scaleInDock": 1
+        },
+        "map3.json": {
+            "expandedObjectLayers": [
+                5
+            ],
+            "scale": 0.33,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 43.939393939393995,
+                "y": 342.4242424242424
+            }
+        },
+        "map3.json#chao": {
+            "scaleInDock": 1
+        },
+        "map3.json#fundo_fase3": {
+            "scaleInDock": 0.33
+        },
+        "map4_boss.json": {
+            "scale": 0.75,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 509.99999999999994,
+                "y": 279.99999999999994
+            }
+        },
+        "map4_boss.json#chao_boss": {
+            "scaleInDock": 0.33
+        },
+        "mapa.json": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 709.3333333333334,
+                "y": 73.33333333333326
+            }
+        },
+        "mapa.json#entrada_castelo": {
+            "scaleInDock": 0.25
+        },
+        "mapa.json#terrain-32x32": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "D:/Projetos/DevilsTower/Devil-s-Tower/tiled",
+    "last.imagePath": "D:/Projetos/DevilsTower/Devil-s-Tower/tiled/assets",
+    "last.objectTemplatePath": "D:/Projetos/DevilsTower/Devil-s-Tower/tiled",
+    "map.height": 18,
+    "map.lastUsedExportFilter": "Arquivos de mapa JSON (*.tmj *.json)",
+    "map.lastUsedFormat": "json",
+    "map.width": 32,
+    "openFiles": [
+        "main.json"
+    ],
+    "project": "main.tiled-project",
+    "recentFiles": [
+        "map2.json",
+        "assets/chao_1.tsj",
+        "assets/terrain.tsx",
+        "mapa.json",
+        "main.json"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "json"
+}
